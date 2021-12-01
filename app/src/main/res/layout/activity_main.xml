@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Оплата"
+        android:textColor="#023E59"
+        android:textSize="35sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="250dp"
+        />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/foredit"
+        android:hint="Введите сумму"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColorHint="#333030" />
+
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Оплатить"
+        android:textStyle="normal"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/style"/>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewStart"
+        android:layout_marginTop="150dp"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:text="Если вы введете сумму и нажмёте на кноку 'Оплатить' то ваша введенная сумма перейдет на счетчик"/>
+
+
+
+
+</LinearLayout>
